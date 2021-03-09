@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport({
     secure: true,
     auth: {
         type: 'OAuth2',
-        user: 'kelsonredbana12@gmail.com',
+        user: 'email de uso',
         clientId: '371715178999-65u7p0rk3n85km6o3nl4vjcu99c52hjo.apps.googleusercontent.com',
         clientSecret: 'YAQaUJXYTYIk0vJ6qqldjanf',
         refreshToken: '1//042pQbwLTx6KhCgYIARAAGAQSNwF-L9Ir9_uRlJjKbtLJDJWDG3NKagHolDnjagRGgQrdNfdrr_JtLR9_BQ6CPLlJycnYLbkskgY',
@@ -38,7 +38,7 @@ app.post('/mail', (req, res) => {
 
     
     transporter.sendMail({
-        from: '"kelson" <kelsonredbana12@gmail.com>',
+        from: '"kelson" <email de uso>',
         to: `<${email}>`,
         subject: 'Test mail',
         text: `${message}`,
