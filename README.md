@@ -1,2 +1,2 @@
 # nodemailer-praticating
- praticando nodemailer e testando
+ Um estudo do módulo **nodemailer**
